@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+canvas {
+  display: block;
+}
+body {
+  margin: 0;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  /* align-items: center; */
+
+  /* Fondo color celeste institucional */
+  background-color: rgb(116, 201, 227);
+}
+/* -------------------------------------------------------- */
+button {
+  background-color: rgb(131, 131, 131);
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* tiempo de transición a :hover */
+  /* afecta al posicionamiento x/y liquido, chan! */
+  /* transition-duration: 0.4s; */
+}
+button:hover {
+  background-color: rgb(190, 23, 23);
+  color: black;
+}
+button:active {
+  background-color: black;
+  color: white;
+}
+/* -------------------------------------------------------- */
+textarea{
+  font-family: sans-serif;
+  font-size: 12pt;
+}
